@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<meta name="author" content="Malik Bensalem">
+		<meta name="description" content="OpenCage cURL Example">
+		<meta name="keywords" content="OpenCage, cURL, API, Json, country, place">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="libs/css/style.css" rel="stylesheet">
+        <title>MB OpenCage</title>
+	</head>
+	<body>
+		<h1>cURL Example</h1>
+
+		<select id="selCountry">
+			<option value="PT">Portugal</option>
+			<option value="MX">Mexico</option>
+			<option value="AF">Afghanistan</option>
+			<option value="BE">Belgium</option>
+			<option value="BR">Brazil</option>
+			<option value="JP">Japan</option>
+			<option value="IN">India</option>
+		</select>
+
+		<button id="btnPlace">Find Info</button>
+		
+		<section>
+			<h2>Country Info</h2>
+			<p>North: <span id="pNorth"></span></p>
+			<p>South: <span id="pSouth"></span></p>
+			<p>East:  <span id="pEast"></span></p>
+			<p>West:  <span id="pWest"></span></p>
+			<p>ID:	  <span id="pID"></span></p>
+			<p id="pCError"></p>
+		</section>
+		<section>
+			<h1>Earthquake Info</h1>
+			<p>Time:	  <span id="pTime"></span></p>
+			<p>Magnitude: <span id="pMag"></span></p>
+			<p id="pEError"></p>
+		</section>
+		<section>
+			<h2>Weather</h2>
+			<p>Temperature: <span id="pTemp"></span></p>
+			<p>Humidity:	<span id="pHum"></span></p>
+			<p id="pWError"></p>
+		</section>
+		<section>
+			<h2>Country URL</h2>
+			<p>Wiki Link: <span id="pURL"></span></p>
+			<p id="pUCError"></p>
+		</section>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+	</body>
+
+</html>

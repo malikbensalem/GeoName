@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+
+}
+#pError{
+    color: red;
+}
+option{
+    color: green;
+}
